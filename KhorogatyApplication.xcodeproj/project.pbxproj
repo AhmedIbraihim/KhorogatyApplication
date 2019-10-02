@@ -37,6 +37,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7626A39723449E2300700376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76F18ED823449DB00013322A /* AppDelegate.swift */,
+				76F18EE723449DB10013322A /* Info.plist */,
+				76F18EDF23449DB00013322A /* KhorogatyApplication.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		76F18ECC23449DB00013322A = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +66,11 @@
 		76F18ED723449DB00013322A /* KhorogatyApplication */ = {
 			isa = PBXGroup;
 			children = (
-				76F18ED823449DB00013322A /* AppDelegate.swift */,
+				7626A39723449E2300700376 /* Supporting Files */,
 				76F18EDA23449DB00013322A /* ViewController.swift */,
 				76F18EDC23449DB00013322A /* Main.storyboard */,
 				76F18EE223449DB10013322A /* Assets.xcassets */,
 				76F18EE423449DB10013322A /* LaunchScreen.storyboard */,
-				76F18EE723449DB10013322A /* Info.plist */,
-				76F18EDF23449DB00013322A /* KhorogatyApplication.xcdatamodeld */,
 			);
 			path = KhorogatyApplication;
 			sourceTree = "<group>";
